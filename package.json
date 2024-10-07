@@ -1,0 +1,22 @@
+{
+  "name": "get-pull-requests-commits",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && cp LICENSE dist/LICENSE && cp README.md dist/README.md",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "luizgustavosaraiva <lg.saraiva@outlook.com> (https://github.com/luizgustavosaraiva)",
+  "license": "ISC",
+  "description": "A GitHub Action that get list of commits in current pull-request",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "semantic-release": "^24.1.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
+  }
+}
