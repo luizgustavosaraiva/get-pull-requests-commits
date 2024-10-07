@@ -1,4 +1,4 @@
-# get-pr-commits
+# get-pull-requests-commits
 
 A GitHub Action that get commits in current pull-request
 
