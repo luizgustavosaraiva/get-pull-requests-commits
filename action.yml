@@ -1,4 +1,4 @@
-name: "get-pull-requests"
+name: "get-pull-requests-commits"
 description: "A GitHub Action that get list of commits in current pull-request"
 inputs:
   token:
